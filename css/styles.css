@@ -17,8 +17,6 @@ a {
   background-color: #f03c42;
   height: 100px;
   color: white;
-  size: 18px;
-  font-style: normal;
   padding: 30px;
 }
 
@@ -46,4 +44,34 @@ a {
     background-color: #222374;
     min-height: 400px;
     color: #fff;
+    padding: 25px 120px 25px 150px;
+    
 }
+
+.section-main-1 h2 {
+    font-size: 32px;
+    line-height: 44px;
+    padding-bottom: 60px;
+   
+}
+
+.container-main {
+    color: black;
+    max-width: 960px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.news-fitness {
+    background-color: #ccc;
+    margin-bottom: 20px;
+    height: 120px;
+    border-radius: 5px;
+    padding: 20px;
+    }
+
+    .news-fitness h3 {
+        padding: 0 0 20px 0 ;
+        font-size: 20px;
+    }
