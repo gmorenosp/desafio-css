@@ -39,10 +39,11 @@ a {
 }
 
 .container-nav img {
-  display: flex;
   padding-right: 10px;
 }
-.container-nav a {
-  display: flex;
-  justify-content: space-between;
+
+.section-main-1 {
+    background-color: #222374;
+    min-height: 400px;
+    color: #fff;
 }
