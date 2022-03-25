@@ -6,6 +6,7 @@
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
   outline: none;
+  
 }
 
 a {
@@ -27,10 +28,15 @@ a {
   align-items: center;
 }
 
+.nav-bar h1 {
+
+  padding-left: 120px;
+}
+
 .container-nav {
   width: 140px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around; /* era espace-between */
   align-items: center;
   margin: 10px 0;
   padding-right: 120px;
@@ -41,37 +47,101 @@ a {
 }
 
 .section-main-1 {
+  
     background-color: #222374;
     min-height: 400px;
     color: #fff;
-    padding: 25px 120px 25px 150px;
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.section-main-1 h2 {
-    font-size: 32px;
-    line-height: 44px;
-    padding-bottom: 60px;
-   
+.space{
+  min-width: 960px;
+      font-size: 32px;
+      line-height: 44px;
+      padding: 20px 0 40px 0;
+      color: #fff;
+      text-align: left;
 }
+
 
 .container-main {
     color: black;
-    max-width: 960px;
-    display: flex;
-    flex-direction: column;
-
 }
 
 .news-fitness {
+    max-width: 960px;
     background-color: #ccc;
     margin-bottom: 20px;
     height: 120px;
-    border-radius: 5px;
+    border-radius: 8px;
     padding: 20px;
     }
 
     .news-fitness h3 {
-        padding: 0 0 20px 0 ;
+        padding: 0 0 30px 0 ;
         font-size: 20px;
     }
+
+    .news-fitness p {
+      font-weight: 400; 
+      font-size: 14px;
+  }
+
+
+    .section-main-2 {
+  
+      background-color: #fff;
+      min-height: 800px;
+      color: #fff;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+    }
+
+    .modalidades {
+      min-width: 960px;
+      font-size: 32px;
+      line-height: 44px;
+      padding: 20px 0 40px 0;
+      color: #f03c42;
+      text-align: left;
+       }
+    
+  
+    .container-mod {
+    height: 100px;
+    color: #fff;
+    min-width: 960px;
+    background-color: #222374;
+    margin-bottom: 20px;
+    height: 120px;
+    border-radius: 8px;
+    padding: 20px;
+          
+    }
+
+    .container-mod h3 {
+      padding: 0 0 40px 0 ;
+      font-size: 20px;
+  }
+
+  .container-mod p {
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .container-footer-content {
+    min-height: 200px;
+    background-color: black ;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px;
+  }
+  .container-footer-content a {
+
+   align-items: center;
+  }
