@@ -1,4 +1,16 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+:root {
+  --main-color: #222374;
+  --secondary-color: #f03c42;
+  --color-black: #000;
+  --light-gray: #ccc;
+  --color-white: #fff;
+}
+
+.body {
+  min-width: calc(100vw - 960px );
+} 
 
 * {
   margin: 0;
@@ -14,9 +26,9 @@ a {
 }
 
 .header-bar {
-  background-color: #f03c42;
+  background-color: var(--secondary-color);
   height: 100px;
-  color: #fff;
+  color: var(--color-white);
   display: flex;
   justify-content: center;
 }
@@ -36,9 +48,13 @@ a {
   padding-right: 10px;
 }
 
+main{
+  min-height: calc(100vh - 350px);
+}
+
 .section-bg-blue {
-  background-color: #222374;
-  color: #fff;
+  background-color: var(--main-color);
+  color: var(--color-white);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -52,9 +68,9 @@ a {
 }
 
 .news-fitness {
-  color: black;
+  color: var(--color-black);
   width: 960px;
-  background-color: #ccc;
+  background-color: var(--light-gray);
   margin-bottom: 20px;
   border-radius: 8px;
   padding: 20px;
@@ -71,8 +87,6 @@ a {
 }
 
 .section-bg-white {
-  background-color: #fff;
-  color: #fff;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -83,14 +97,14 @@ a {
   font-size: 32px;
   line-height: 44px;
   padding: 20px 0 40px 0;
-  color: #f03c42;
+  color: var(--secondary-color);
 }
 
 .container-mod {
   height: 100px;
-  color: #fff;
-  min-width: 960px;
-  background-color: #222374;
+  color: var(--color-white);
+  width: 960px;
+  background-color: var(--main-color);
   margin-bottom: 20px;
   height: 120px;
   border-radius: 8px;
@@ -108,12 +122,13 @@ a {
 }
 
 .footer-container {
-  background-color: #000;
+  background-color: var(--color-black);
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 0 auto;
-  color: #fff;
+  color: var(--color-white);
+  height: 250px;
 }
 
 .container-footer-content {
@@ -142,6 +157,7 @@ a {
   align-items: center;
   padding: 30px;
   font-size: 14px;
+  font-weight: 400;
   padding-bottom: 60px;
 }
 
